@@ -1,0 +1,7 @@
+#COMMAND								DESCRIPTION
+$(readlink -f $0 | xargs dirname)					Absolute path of file (Removes symlink)
+grep -Fxvf file1 file2							Subtract file1 from file2
+sed -e "s/\b\(.\)/\u\1/g" 						Capitalize words
+tr [:upper:] [:lower:]							Lowercase words
+setcap -v cap_net_bind_service=+ep "$(readlink -f "$(which *binary*)")"	Sudo without root permission
+openssl s_client -connect crossfit.htb:21 -starttls *protocol*		Fetch SSL data

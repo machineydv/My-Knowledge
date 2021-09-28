@@ -1,0 +1,72 @@
+#!/bin/bash
+apt update && apt full-upgrade -y
+
+# General
+apt install apt-file -y
+apt install deluge feh mpv simplescreenrecorder evince tor torbrowser-launcher -y
+apt install sudo cron wget curl pigz jq gron sct xclip tree telnet -y
+apt install docker.io docker-compose python2 python3 -y
+apt install git git-lfs git-extras tig -y
+apt install vim vim-gtk3 vim-scripts neovim -y
+apt install mercurial -y
+apt install filezilla lftp remmina openssh-server resolvconf -y
+apt install xutils-dev x11-xserver-utils graphicsmagick-imagemagick-compat -y
+apt install autopoint gperf tidy -y
+
+# Personal
+apt install openbabel -y
+
+# Linux Customization
+apt install stterm qterminal tmux -y
+apt install i3 dwm suckless-tools -y
+
+# Building
+apt install automake build-essential autoconf bison cmake -y
+apt install flex emscripten libtool -y 
+apt install make makepp maven scons -y
+
+# Monitoring
+apt install bmon htop iftop pydf -y
+
+# Web Browser/Server
+apt install w3m -y
+apt install apache2 nginx libapache2-mod-php -y
+apt install firefox-esr-l10n-ne-np fonts-deva-extra -y
+
+# Package manager
+apt install python3-pip -y
+apt install python-pip -y
+apt install cargo -y
+apt install yarn npm  -y
+apt install composer -y
+apt install rbenv -y
+
+# Languages
+apt install swig -y
+apt install golang -y
+apt install cpp-10 gcc gcc-multilib g++ ccache clang-11 llvm-11 -y
+apt install nodejs libnode-dev node-gyp -y
+apt install php php-mysqli php-gd php7.4-cli php7.4-curl php7.4-mysql php7.4-fpm -y
+apt install php7.4-gd php7.4-xml php7.4-mbstring php7.4-zip php7.4-soap php7.4-dev php7.4-sqlite -y
+apt install python3-distutils-extra -y
+
+# DBMS
+apt install mariadb-server -y 
+apt install sqlite sqlite3 -y
+apt install postgresql postgresql-13 libpq-dev -y
+apt install sqlcipher libsqlite3-dev -y
+apt install freetds-dev -y
+
+# Firmwares
+apt install firmware-misc-nonfree -y
+
+# Libraries
+apt install linux-headers-amd64 -y
+apt install libncurses5-dev libncursesw5-dev libbsd-dev libgtkglext1 libevent-dev -y
+apt install libldns-dev libcurl4-openssl-dev libgraphviz-dev libssl-dev libldns-dev -y
+apt install libsecret-1-dev libglib2.0-dev libgpgme-dev libcairo2-dev libjpeg-dev libgif-dev -y
+apt install libdbus-glib-1-dev libgirepository1.0-dev libboost-all-dev -y
+apt install libcrypto++-dev libc-ares-dev libfreeimage-dev libsodium-dev -y
+apt install libelf-dev libxkbfile-dev -y
+apt install libpangox-1.0-dev -y
+
