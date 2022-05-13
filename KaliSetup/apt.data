@@ -35,7 +35,6 @@ apt install firefox-esr-l10n-ne-np fonts-deva-extra -y
 
 # Package manager
 apt install python3-pip -y
-apt install python-pip -y
 apt install cargo -y
 apt install yarn npm  -y
 apt install composer -y
