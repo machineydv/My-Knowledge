@@ -62,11 +62,4 @@ apt install firmware-misc-nonfree -y
 
 # Libraries
 apt install linux-headers-amd64 -y
-apt install libncurses5-dev libncursesw5-dev libbsd-dev libgtkglext1 libevent-dev -y
-apt install libldns-dev libcurl4-openssl-dev libgraphviz-dev libssl-dev libldns-dev -y
-apt install libsecret-1-dev libglib2.0-dev libgpgme-dev libcairo2-dev libjpeg-dev libgif-dev -y
-apt install libdbus-glib-1-dev libgirepository1.0-dev libboost-all-dev -y
-apt install libcrypto++-dev libc-ares-dev libfreeimage-dev libsodium-dev -y
-apt install libelf-dev libxkbfile-dev -y
-apt install libpangox-1.0-dev -y
 
