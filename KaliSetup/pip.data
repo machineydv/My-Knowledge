@@ -1,8 +1,4 @@
 #!/bin/bash
-# Install python2 pip
-#curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.py && rm get-pip.py
-
-# Python3 modules
 pip3 install --upgrade asyncio aioconsole aiohttp aiofiles aiosonic uvloop
 pip3 install --upgrade requests requests_toolbelt requests-html httpx faster_than_requests
 pip3 install --upgrade twisted dnspython bs4 tornado scrapy sortedcontainers
@@ -16,12 +12,3 @@ pip3 install --upgrade versioneer bumpversion virtualenv tox
 pip3 install --upgrade fuzzywuzzy[speedup] randomsentence black dill
 pip3 install --upgrade event-timer wiki-tools nemesis-scan xssterminal
 pip3 install --upgrade mysql-connector
-
-# Python2 to Python3
-pip install modernize
-
-# Python2 modules
-#pip install --upgrade wheel setuptools tornado bs4 netaddr pycurl scrapy scrypt 
-#pip install --upgrade tqdm twisted pathlib mechanize jsbeautifier twine
-#pip install --upgrade requests requests_toolbelt veryprettytable pysocks
-
