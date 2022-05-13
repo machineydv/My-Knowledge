@@ -46,8 +46,8 @@ apt install swig -y
 apt install golang -y
 apt install cpp-10 gcc gcc-multilib g++ ccache clang-11 llvm-11 -y
 apt install nodejs libnode-dev node-gyp -y
-apt install php php-mysqli php-gd php7.4-cli php7.4-curl php7.4-mysql php7.4-fpm -y
-apt install php7.4-gd php7.4-xml php7.4-mbstring php7.4-zip php7.4-soap php7.4-dev php7.4-sqlite -y
+apt install php php-mysqli php-gd php8.1-cli php8.1-curl php8.1-mysql php8.1-fpm -y
+apt install php8.1-gd php8.1-xml php8.1-mbstring php8.1-zip php8.1-soap php8.1-dev php8.1-sqlite -y
 apt install python3-distutils-extra -y
 
 # DBMS
