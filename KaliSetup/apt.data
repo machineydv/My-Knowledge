@@ -3,15 +3,15 @@ apt update && apt full-upgrade -y
 
 # General
 apt install apt-file -y
-apt install deluge feh mpv simplescreenrecorder evince tor torbrowser-launcher -y
+apt install deluge feh mpv mplayer simplescreenrecorder evince -y
 apt install sudo cron wget curl pigz jq gron sct xclip tree telnet -y
 apt install docker.io docker-compose python2 python3 -y
-apt install git git-lfs git-extras tig -y
+apt install git git-lfs git-extras tig mercurial -y
 apt install vim vim-gtk3 vim-scripts neovim -y
-apt install mercurial -y
+apt install ncdu duf fzf gzip zstd -y
 apt install filezilla lftp remmina openssh-server resolvconf -y
 apt install xutils-dev x11-xserver-utils graphicsmagick-imagemagick-compat -y
-apt install autopoint gperf tidy -y
+apt install autopoint gperf tidy tor torbrowser-launcher -y
 
 # Personal
 apt install openbabel -y
@@ -21,15 +21,16 @@ apt install stterm qterminal tmux -y
 apt install i3 dwm suckless-tools -y
 
 # Building
-apt install automake build-essential autoconf bison cmake -y
+apt install mold -y
 apt install flex emscripten libtool -y 
 apt install make makepp maven scons -y
+apt install automake build-essential autoconf bison cmake -y
 
 # Monitoring
 apt install bmon htop iftop pydf -y
 
 # Web Browser/Server
-apt install w3m -y
+apt install firefox-esr chromium w3m -y
 apt install apache2 nginx libapache2-mod-php -y
 apt install firefox-esr-l10n-ne-np fonts-deva-extra -y
 

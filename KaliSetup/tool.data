@@ -35,7 +35,8 @@ pip3 install --upgrade pwntools ciphey sslyze name-that-hash
 #npm install -g electron
 
 # Rust
-cargo install ego
+cargo install bandwhich grex
+cargo install du-dust ego hyperfine
 cargo install RustKraken rustscan
 
 # Other

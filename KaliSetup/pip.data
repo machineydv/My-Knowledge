@@ -11,4 +11,4 @@ pip3 install --upgrade dbus-python gobject PyGObject nextcord
 pip3 install --upgrade versioneer bumpversion virtualenv tox
 pip3 install --upgrade fuzzywuzzy[speedup] randomsentence black dill
 pip3 install --upgrade event-timer wiki-tools nemesis-scan xssterminal
-pip3 install --upgrade mysql-connector
+pip3 install --upgrade yacron mysql-connector
